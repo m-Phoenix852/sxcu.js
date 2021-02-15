@@ -1,0 +1,28 @@
+{
+  "name": "sxcu.js",
+  "version": "1.0.0",
+  "description": "Simple NodeJS API wrapper for sxcu.net.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test.js",
+    "gendoc": "doc.bat && exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-Phoenix852/sxcu.js.git"
+  },
+  "keywords": [
+    "sxcu",
+    "sharex",
+    "api"
+  ],
+  "author": "Phoenix852",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m-Phoenix852/sxcu.js/issues"
+  },
+  "homepage": "https://github.com/m-Phoenix852/sxcu.js#readme",
+  "dependencies": {
+    "superagent": "^6.1.0"
+  }
+}
