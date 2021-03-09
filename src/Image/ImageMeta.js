@@ -1,7 +1,7 @@
 const superagent = require("superagent");
 
 const Collection = require("../Collection");
-const OgProperties = require("./ogproperties");
+const OgProperties = require("./OgProperties");
 
 /**
  * @exports ImageMeta

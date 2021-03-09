@@ -11,7 +11,7 @@ module.exports = {
 
   // Image/File
   Image: require('./Image'),
-  ImageOgProperties: require('./Image/ogproperties'),
+  ImageOgProperties: require('./Image/OgProperties'),
   UploadedImage: require('./Image/UploadedImage'),
   ImageMeta: require('./Image/ImageMeta'),
 

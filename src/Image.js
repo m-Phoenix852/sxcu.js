@@ -2,7 +2,7 @@ const superagent = require('superagent');
 const fs = require('fs');
 
 const Collection = require('./Collection');
-const ImageOgProperties = require('./Image/ogproperties');
+const ImageOgProperties = require('./Image/OgProperties');
 const UploadedImage = require('./Image/UploadedImage');
 const ImageUploadError = require('./Image/Errors/ImageUploadError');
 const ImageErrors = require('./Image/ImageErrors');
