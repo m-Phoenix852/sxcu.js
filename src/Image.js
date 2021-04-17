@@ -52,13 +52,8 @@ module.exports = class Image {
    * @instance
    */
   setOgProperties = (og_props) => {
-    let props;
-
-    if (og_props instanceof ImageOgProperties) props = og_props.props;
-    else og_props;
-
     /**@private */
-    this.og_properties = props;
+    this.og_properties = og_props;
 
     return this;
   };
