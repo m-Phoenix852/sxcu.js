@@ -17,7 +17,7 @@ module.exports = class Image {
    * @param {String} url The upload url of the image, defaults to https:/sxcu.net/upload/.
    * @param {String} token The upload token of the domain, only needed if the domain is private.
    */
-  constructor(url = 'https://sxcu.net/upload/', token) {
+  constructor(url = 'https://sxcu.net/api/files/create', token) {
     /**@private */
     this.url = url;
     /**@private */
@@ -118,7 +118,7 @@ module.exports = class Image {
         req.field(key, value);
       });
 
-      req.attach('image', this.file);
+      req.attach('file', this.file);
 
       req.end((err, res) => {
         if (err) {
