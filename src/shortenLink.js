@@ -10,7 +10,7 @@ const ShortenedLink = require("./Link/ShortenedLink");
   * @function shortenLink
   * @global
  */
-module.exports = (url, shortener_url = "https://questionable.link/shorten") => new Promise((resolve, reject) => {
+module.exports = (url, shortener_url = "https://questionable.link/api/link/create") => new Promise((resolve, reject) => {
     superagent.post(shortener_url)
     .set("Content-Type", "multipart/form-data")
     .field("link", url)
